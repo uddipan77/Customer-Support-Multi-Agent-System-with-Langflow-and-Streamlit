@@ -17,19 +17,18 @@ This project implements a **multi-agent architecture** with intelligent routing:
 - **Groq LLM**: Powers all agents with fast inference
 
 ## 📁 Project Structure
-
+```
 CUSTOMER_SUPPORT_LANGFLOW/
-├── main.py # Streamlit frontend connecting to LangflowAPI
-├── Customer Support.json # Langflow flow definition
-├── .env # Environment variables (API tokens)
-├── Company_FAQ.pdf # FAQ knowledge base
-├── sample_orders.csv # Order data
-├── sample_products.csv # Product catalog
-├── requirements.txt # Python dependencies
+├── main.py                   # Streamlit frontend connecting to LangflowAPI
+├── Customer Support.json     # Langflow flow definition
+├── .env                      # Environment variables (API tokens)
+├── Company_FAQ.pdf           # FAQ knowledge base
+├── sample_orders.csv         # Order data
+├── sample_products.csv       # Product catalog
+├── requirements.txt          # Python dependencies
 ├── customer-support-flow.png # Flow diagram
 └── README.md
-
-
+```
 ## 🚀 Features
 
 - **Intelligent Query Routing**: Manager agent automatically determines which specialized agent should handle the query
